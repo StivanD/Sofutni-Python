@@ -1,0 +1,52 @@
+.business-aims {
+    border-bottom: 2px solid lightgray;
+}
+
+.business-aims-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 7em 0em;
+}
+
+.aim-description {
+    padding: 2em 0em;
+}
+
+.info-button {
+    display: inline-block;
+    color: #B38662;
+    font-weight: bold;
+    border: 1px solid #B38662;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.sponsors h2 {
+    color: #B38662;
+    text-align: center;
+    padding: 0.5em 0em;
+}
+
+.sponsors p {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.icon-container {
+    display: block;
+    background-color: #eee;
+    width: 10em;
+    height: 10em;
+    padding: 1.5em;
+    border-radius: 50%;
+}

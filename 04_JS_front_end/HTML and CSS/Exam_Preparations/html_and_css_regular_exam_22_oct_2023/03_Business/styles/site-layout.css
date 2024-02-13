@@ -1,0 +1,8 @@
+.header-content,
+.business-aims-wrapper,
+.sponsors,
+.footer-container,
+.copyright-container {
+    max-width: 70vw;
+    margin: 0 auto;
+}

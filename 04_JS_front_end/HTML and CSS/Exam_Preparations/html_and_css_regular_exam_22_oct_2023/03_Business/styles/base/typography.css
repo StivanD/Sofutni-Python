@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+html {
+    font: 16px / 1.6 'PT Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3.4em;
+}
+
+h2 {
+    font-size: 2.8em;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+.site-heading,
+.description-container,
+.navbar a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}

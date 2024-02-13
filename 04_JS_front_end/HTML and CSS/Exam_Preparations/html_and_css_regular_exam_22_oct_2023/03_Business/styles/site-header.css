@@ -1,0 +1,36 @@
+.site-header {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+.header-content {
+    padding: 2em 2em 15em;
+}
+
+.description-container {
+    max-width: 55%;
+    padding-top: 1.5em;
+    font-size: 1.2em;
+}
+
+
+.site-logo {
+    display: block;
+    max-width: 6em;
+}
+
+.site-logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar a {
+    margin: 0 1em;
+}

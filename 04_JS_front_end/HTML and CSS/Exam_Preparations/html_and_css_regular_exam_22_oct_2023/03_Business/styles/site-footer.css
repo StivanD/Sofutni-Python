@@ -1,0 +1,38 @@
+.site-footer {
+    background-color: #171720;
+    margin-top: 3em;
+}
+
+.footer-wrapper {
+    border-bottom: 2px solid #6F6463;
+}
+
+.footer-container {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.footer-nav h4 {
+    padding: 2em 0em 1em;
+    color: white;
+}
+
+.footer-nav ul {
+    list-style: none;
+}
+
+.footer-nav li {
+    line-height: 2;
+}
+
+.footer-nav a {
+    color: #6F6463;
+    font-size: 1.4em;
+}
+
+.copyright-container p {
+    color: #6F6463;
+    padding: 2em 0em;
+}
