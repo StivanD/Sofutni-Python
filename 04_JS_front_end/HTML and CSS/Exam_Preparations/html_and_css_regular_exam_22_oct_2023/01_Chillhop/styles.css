@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    width: 65em;
+    margin: 10em auto;
+    background-color: #1881B6;
+    border: 2px solid black;
+    border-radius: 2em;
+    padding: 2em;
+}
+
+.content {
+    flex: 1 1;
+    padding: 0em 1em;
+}
+
+.main-title {
+    color: white;
+    font-weight: normal;
+    padding: 0.5em 0em;
+}
+
+.secondary-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.text {
+    text-indent: 3em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.buttons a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 0.3em;
+    font-weight: bold;
+    padding: 0.25em 0.75em;
+}
+
+.contact-button {
+    color: #fff;
+    background-color: #B6416D;
+}
+
+.learn-more-button {
+    color: black;
+}
+
+.image-container {
+    flex: 0.6 0.5;
+    overflow: hidden;
+}
