@@ -1,0 +1,35 @@
+.site-main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 3em 0em 0em;
+}
+
+.main-content-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+.image-content {
+    flex: 1 0 30%;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.image-container {
+    padding-bottom: 2em;
+}
+
+.content {
+    text-indent: 3em;
+}
+
+.facts {
+    width: 35%;
+    background-color: black;
+    text-align: center;
+}
+
