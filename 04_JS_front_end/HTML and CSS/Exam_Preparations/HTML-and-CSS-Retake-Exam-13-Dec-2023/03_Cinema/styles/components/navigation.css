@@ -1,0 +1,26 @@
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 1em 0em;
+}
+
+.navbar li {
+    background-color: #ECECEC;
+    padding: 1em;
+}
+
+.navbar li + li {
+    margin-left: 0.1em;
+}
+
+.navbar .active {
+    background-color: #56DBB1;
+}
+
+.navbar li:hover {
+    background-color: #56DBB1;
+}
+
+.navbar li:hover a {
+    color: black;
+}

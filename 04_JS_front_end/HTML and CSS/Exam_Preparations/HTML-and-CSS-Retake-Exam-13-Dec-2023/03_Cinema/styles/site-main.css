@@ -1,0 +1,65 @@
+.site-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-description {
+    background-color: #56DBB1;
+    padding: 5em 10em;
+    text-align: center;
+}
+
+.cards-wrapper {
+    background-color: #353434;
+}
+
+.cards {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-between;
+    padding: 5em 3em;
+}
+
+.card {
+    flex: 0 0 23%;
+    text-align: center;
+}
+
+.icon-container i{
+    padding: 0.3em;
+    background-color: #56DBB1;
+}
+
+.card-title {
+   border-bottom: 2px solid white; 
+}
+
+.card-title h3 {
+    padding: 1em 0em;
+}
+
+.card-description p {
+    padding: 1em 0em;
+    text-align: center;
+}
+
+.action-container {
+    text-align: center;
+    padding: 4em 0em;
+}
+
+.action-container h4 {
+    margin-bottom: 2em;
+}
+
+.action-container a {
+    background-color: #974D1A;
+    padding: 1em 2em;;
+}
+
+.no-border {
+    border-bottom: none;
+}

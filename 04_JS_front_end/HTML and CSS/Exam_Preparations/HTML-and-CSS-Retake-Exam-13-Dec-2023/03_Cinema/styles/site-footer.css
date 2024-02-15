@@ -1,0 +1,10 @@
+.site-footer {
+    text-align: center;
+    padding: 4em 0em;
+    background-color: #1b9772;
+    color: #56dbb1;
+}
+
+.site-footer strong {
+    color: #dbfaf0;
+}
