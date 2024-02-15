@@ -1,0 +1,9 @@
+.site-header {
+    margin: 0em 3em 0em 2em;
+}
+
+.title-container,
+.country-container {
+    text-align: center;
+    border-bottom: 3px solid black;
+}
