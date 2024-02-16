@@ -50,6 +50,7 @@ main {
     margin: 0em 3em;
     background-color: #fff;
     display: flex;
+    justify-content: space-between;
     gap: 2em;
     padding: 3em;
 }
