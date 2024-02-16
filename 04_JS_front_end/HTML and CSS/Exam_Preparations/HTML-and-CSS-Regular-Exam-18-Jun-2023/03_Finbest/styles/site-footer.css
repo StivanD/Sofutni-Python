@@ -1,0 +1,9 @@
+.site-footer {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i + i {
+    padding-left: 1em;
+}
