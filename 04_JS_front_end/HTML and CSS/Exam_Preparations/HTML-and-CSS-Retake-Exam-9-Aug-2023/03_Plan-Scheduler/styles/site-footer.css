@@ -1,0 +1,12 @@
+.site-footer {
+    background-color: #D9D9D9;
+}
+
+.footer-wrapper {
+    width: 50em;
+    margin: 0 auto;
+    padding: 3em 0em;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}

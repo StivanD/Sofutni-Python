@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html {
+    font: 18px/1.5 'Inter', sans-serif;
+}
+
+.buy-now a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner-content h1,
+.statistics-card h1 {
+    font-size: 2.8em;
+}
+
+.content h1,
+.plans-description h1 {
+    font-size: 2.5em;
+}
+
+.banner-content p {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.banner-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.statistics-card h1 {
+    color: #FF7C4C;
+}
+
+.statistics-card h2 {
+    font-weight: normal;
+}
+
+.statistics-card p,
+.content p,
+.plans-description p {
+    color: gray;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.content a {
+    color: #000;
+    text-decoration: none;
+}
+
+.pricing-card ul {
+    list-style: none;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.pricing-card .price {
+    font-size: 3.5em;
+    font-weight: lighter;
+}
+
+.black {
+    color: #fff;
+}
+
+.learn-more {
+    text-decoration: none;
+}
+
+.orange .learn-more {
+    color: #fff;
+}
+
+.black .learn-more {
+    color: #000;
+}

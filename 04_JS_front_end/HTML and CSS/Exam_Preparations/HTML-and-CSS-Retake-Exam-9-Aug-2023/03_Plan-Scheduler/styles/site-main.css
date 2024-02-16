@@ -1,0 +1,105 @@
+main {
+    background-color: #D9D9D9;
+}
+
+.statistics {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    padding: 5em 3em;
+    background-color: #fff;
+}
+
+.statistics-card {
+    text-align: center;
+}
+
+.statistics-card h1 {
+    padding-bottom: 0.8em;
+}
+
+.articles {
+    margin: 0em 3em;
+    padding: 2em 0em;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    padding-bottom: 1.5em;
+    padding-right: 5em;
+}
+
+.card .media {
+    flex: 0 0 45%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 1em;
+}
+
+.pricing-plans-wrapper {
+    background-color: #F5F5F5;
+}
+
+.pricing-plans {
+    margin: 0em 3em;
+    background-color: #fff;
+    display: flex;
+    gap: 2em;
+    padding: 3em;
+}
+
+.plans-description {
+    flex: 0 0 30%
+}
+
+.plans-description h1 {
+    padding-bottom: 1em;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em 6em;
+}
+
+.pricing-card .public-projects {
+    text-align: center;
+    font-weight: bold;
+}
+
+.pricing-card .price {
+    padding: 0.5em;
+}
+
+.pricing-card .learn-more {
+    padding: 1em 2em;
+}
+
+.learn-more {
+    border-radius: 0.5em;
+    margin: 2em 0em 1em;
+}
+
+.orange .learn-more {
+    background-color: black;
+}
+
+.orange {
+    background-color: #FF7C4C;
+}
+
+.black {
+    background-color: black;
+    
+}
+
+.black .learn-more {
+    background-color: #fff;
+}
