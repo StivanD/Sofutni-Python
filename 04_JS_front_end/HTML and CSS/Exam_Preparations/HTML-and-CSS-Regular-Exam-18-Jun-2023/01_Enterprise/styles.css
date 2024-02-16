@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+ * {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 16px/1.5 'Inter', sans-serif;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+.wrapper {
+    width: 90vw;
+    margin: 5em auto;
+}
+
+main {
+    display: flex;
+    gap: 0.5em;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex: 0 0 30%;
+    box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+}
+
+.card .media img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card .author-img {
+    width: 4em;
+    height: 4em;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 2em;;
+}
+
+.content h3 {
+    color: #585957;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 1.3em;
+    font-weight: 300;
+    padding-bottom: 1.5em;
+}
+
+.description {
+    color: #808080;
+}
+
+.author-data {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.author-left {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.read-container {
+    text-align: end;
+    color:#999;
+}
