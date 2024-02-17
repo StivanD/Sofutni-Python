@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*
+ * Remove all whitespace from all elements
+ * - - - - - - - - - - - */
+ * {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+ * Reset box-sizing
+ * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ * - - - - - - - - - - - */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/*
+ * Fix images behaviour - block elements
+ * - - - - - - - - - - - */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 16px/1.5 'Open Sans', sans-serif;
+}
+
+p {
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 80vw;
+    display: flex;
+    gap: 2em;
+    margin: 10em auto;
+    border-radius: 0.7em;
+    background-color: #F6F7F8;
+    border: 1px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.media {
+    flex: 0 0 50%;
+}
+
+.media img {
+    border-radius: 0.7em 0 0 0.7em;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 3em 1em 3em 0em;
+}
+
+.content h1 {
+    font-size: 2em;
+    padding-bottom: 1.3em;
+}
+
+.unit-container {
+    display: flex;
+    gap: 5em;
+    justify-content: space-evenly;
+}
+
+.units {
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+.us {
+    background: #62ce33c2;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.metric {
+    background: #e0e0df;
+    padding: 0.5rem 2.2rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.container p {
+    padding: 1.5em 0em 1em;
+}
+
+.container div {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.gender-container #genre,
+.gender-container .years {
+    width: 13em;
+}
+
+.weight-container p {
+    padding: 1em;
+}
+
+.weight input {
+    width: 85%;
+    padding: 0.6em 0.4em;
+}
+
+.height-container .feet,
+.height-container .inches {
+    width: 17em;
+}
+
+button {
+    margin-top: 3em;
+    width: 93%;
+    padding: 0.5em 0em;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    font-weight: bold;
+    background-color: #2CA2D3;
+    font-size: 1.2em;
+}
