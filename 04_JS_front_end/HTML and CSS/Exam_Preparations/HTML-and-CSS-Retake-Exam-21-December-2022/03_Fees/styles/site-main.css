@@ -1,0 +1,196 @@
+/* IMAGE WRAPPER */
+
+main .img-wrapper {
+    width: 100%;
+    height: 300px;
+    background-color: #54546D;
+    position: relative;
+}
+
+main .img-wrapper img {
+    position: relative;
+    top: 50px;
+    left: -70px;
+    width: 12%;
+    display: inline;
+}
+
+main > h2 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -280px;
+    padding: 1.4em 0em;
+    font-size: 1.8em;
+}
+
+/* TAXES SECTION */
+
+.taxes {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto -220px;
+    position: relative;
+    top: -280px;
+}
+
+.taxes-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+    flex-basis: 30%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 1em 0em 0em;
+}
+
+.taxes-card h2:not(.card-prices h2) {
+    color: #54546D;
+}
+
+.basics {
+    justify-content: space-between;
+}
+
+.basics .card-description {
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+.basics a {
+    color: #fff;
+    background-color: #9A5DC6;
+    width: 15em;
+    padding: 0.7em;
+    border-radius: 1.5em;
+    align-self: center;
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 0em 1em;
+}
+
+.basics p {
+    padding-top: 0.3em;
+}
+
+.taxes-card p:not(.card-prices p) {
+    color: #54546D;
+}
+
+.card-prices {
+    padding: 2em 0.5em;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-prices .price {
+    font-size: 1.4em;
+}
+
+.basics .card-prices {
+    background-image: linear-gradient(to right, #079e41, #1eab50, #2eb95f, #3bc66f, #48d47e);
+}
+
+.fundamentals .card-prices {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-image: linear-gradient(to right, #4d6e8c, #52799c, #5783ac, #5c8ebc, #6199cd);
+}
+
+.professional .card-prices {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #4f3caa, #5e4bb7, #6d5bc5, #7b6bd2, #8a7be0);
+}
+
+.card-prices div:first-child {
+    flex-basis: 50%;
+    border-right: 1px solid #fff;
+}
+
+/* EDUCATION TYPES SECTION */
+
+.type-of-education {
+    width: 72vw;
+    margin: 0 auto;
+}
+
+.education-forms h2{
+    padding: 1em 0em;
+}
+
+.education-forms p {
+    padding-bottom: 2em;;
+}
+
+.education-description {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+}
+
+.education-description div:first-child {
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+.education-description div:last-child {
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+.education-description div:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.education-description div:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+.education-description div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 4em 1em 2em;
+}
+
+.education-description span {
+    display: flex;
+    flex: 0 0 20%;
+    justify-content: space-between;
+}
+
+.education-description span img {
+    width: 13%;
+}
+
+/* FINANCE SECTION */
+
+.finance {
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finance-description {
+    flex: 0 0 70%;
+}
+
+.finance-description h2 {
+    padding: 1.5em 0em;
+}
+
+.finance-description p {
+    padding-bottom: 1em;;
+}
+
+.finance-media {
+    align-self: center;
+}

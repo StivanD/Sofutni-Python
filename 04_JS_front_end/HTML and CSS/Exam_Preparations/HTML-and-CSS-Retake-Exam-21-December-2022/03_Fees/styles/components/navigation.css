@@ -1,0 +1,5 @@
+.navbar ul {
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+}
