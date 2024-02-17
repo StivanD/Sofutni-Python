@@ -1,0 +1,35 @@
+html {
+    font: 16px/1.5 Arial, sans-serif;
+}
+
+.navbar li a,
+.donate-btn,
+.newsletter-btn {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.donation-content h2{
+    font-size: 2em;
+}
+
+.newsletter-btn {
+    color: #fff;
+}
+
+.work-goals a,
+.send-btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.animals-pictures h2{
+    font-size: 2.5em;
+}
+
+
+.work-cards .work-card-description,
+.send-btn {
+    font-weight: bold;
+}

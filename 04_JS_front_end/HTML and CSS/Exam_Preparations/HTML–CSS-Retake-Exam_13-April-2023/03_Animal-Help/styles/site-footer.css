@@ -1,0 +1,10 @@
+.site-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.social-icons i{
+    padding-left: 1em;
+}

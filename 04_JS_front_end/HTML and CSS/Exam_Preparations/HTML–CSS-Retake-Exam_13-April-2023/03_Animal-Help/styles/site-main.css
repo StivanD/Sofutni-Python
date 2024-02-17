@@ -1,0 +1,238 @@
+/* DONATION SECTION */
+
+.donation-section {
+    background-color: #85DCFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4em;
+}
+
+.donation-content {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.donation-content p {
+    padding: 1.5em 0em 3em;;
+}
+
+.donate-btn,
+.newsletter-btn {
+    padding: 1.3em 5em;
+    border-radius: 0.5em;
+    border: 1px solid #000;
+}
+
+.donate-btn {
+    background-color: #fff;
+    margin-right: 2em;
+}
+
+.newsletter-btn {
+    background-color: #000;
+}
+
+.donation-media {
+    min-width: 28em;
+}
+
+/* ACTIVITIES SECTION */
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3em;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.activities-content {
+    width: 33vw;
+    margin: 0 auto;
+}
+
+.activities h3 {
+    padding: 1.5em 0em;
+}
+
+.activities-container-description {
+    font-weight: bold;
+}
+
+p.activities-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 3em;
+}
+
+.activities-cards-container {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.activity-card {
+    flex: 0 0 30%;
+}
+
+.activity-card i {
+    color: #85DCFF;
+}
+
+/* WORK GOALS SECTION */
+
+.work-goals {
+    background-color: #85DCFF;
+    padding: 2em;
+}
+
+.work-goals-wrapper {
+    width: 55vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.work-goals-wrapper h2 {
+    text-transform: uppercase;
+}
+
+.work-goals-lists {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work-goals-lists ul {
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.work-goals-lists li {
+    line-height: 2em;
+}
+
+.work-goals-lists li::marker {
+    font-size: 3.5em;
+}
+
+.work-goals-lists li span {
+    position: relative;
+    left: -0.8em;
+}
+
+.work-goals-wrapper a {
+    background-color: #000;
+    text-align: center;
+    padding: 0.8em 2.5em;
+    border-radius: 0.5em;
+}
+
+/* ANIMALS PICTURES SECTION */
+
+.animals-pictures {
+    padding: 2em 4em;
+    text-align: center;
+}
+
+.animals-pictures p {
+    padding: 2em 0em;
+    font-size: 0.8em;
+}
+
+.animal-pictures-container {
+    display: flex;
+    gap: 2em;
+}
+
+/* WORK DESCRIPTION SECTION */
+
+.work-description {
+    padding: 2em 0em 4em;;
+}
+
+.work-description-wrapper {
+    width: 71vw;
+    margin: 0 auto;
+}
+
+.work-description-wrapper h2 {
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.work-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.work-card {
+    border: 1px solid #d3d3d3;
+    border-radius: 0.5em;
+}
+
+.work-cards .work-card-title-container {
+    background-color: #85DCFF;
+    border-radius: 0.5em 0.5em 0 0;
+
+}
+
+.work-cards .work-card-title,
+.work-cards .work-card-description {
+    padding: 1.5em;
+}
+
+/* NEWS SECTION */
+
+.news {
+    display: flex;
+    gap: 5em;
+;
+}
+
+.news-media {
+    flex: 0 0 50%;
+}
+
+.news-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 35%;
+}
+
+.news-content h2 {
+    font-size: 1.5em;
+}
+
+.news-content p {
+    color: gray;
+    font-size: 0.8em;
+    padding: 1.5em 0em;
+}
+
+input[type="email"] {
+    padding: 1em 1.5em;
+    width: 18em;
+    border: 1px solid lightgray;
+    border-radius: 0.5em;
+    margin-bottom: 3em;
+    font-weight: bold;
+}
+
+.send-btn {
+    background-color: #000;
+    width: 10em;
+    text-align: center;
+    border-radius: 0.5em;
+    padding: 0.7em 2em;
+}
