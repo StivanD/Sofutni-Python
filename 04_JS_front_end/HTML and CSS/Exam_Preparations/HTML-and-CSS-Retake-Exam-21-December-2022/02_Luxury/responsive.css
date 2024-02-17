@@ -1,0 +1,135 @@
+@media (max-width: 600px) {
+    .div-logo {
+        display: none;
+    }
+    
+    .div-header ul {
+        display: none;
+    }
+    
+    header h3 {
+        font-size: 0.8em;
+    }
+    
+    header h1 {
+        font-size: 1.5em;
+    }
+    
+    .options {
+        flex-direction: column;
+    }
+    
+    .options article {
+        width: 100%;
+        text-align: center;
+        border-top: 2px solid rgba(255, 255, 255, 0.5)
+    }
+    
+    .options a {
+        display: none;
+    }
+    
+    main h2 {
+        font-size: 1.4em;
+    }
+    
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .gallery article a {
+        display: none;
+    }
+    
+    .gallery article p {
+        font-size: 0.9em;
+    }
+    
+    .gallery article>img {
+        width: 320px;
+        height: 180px;
+    }
+    
+    .blog article img {
+        display: none;
+    }
+    
+    #about-blog {
+        width: 100%;
+        margin:2em;
+    }
+    
+    .magazine-title a {
+        display: none;
+    }
+    
+    .blog-title h4 span {
+        display: none;
+    }
+    
+    .blog-title a {
+        display: none;
+    }
+    
+    .magazine article {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .magazine-info {
+        margin: 0 auto;
+        padding: 0em 2em;
+        text-align: center;
+    }
+    
+    .magazine-info img {
+        width: 100%;
+    }
+    
+    #magazine-img {
+        margin-bottom: 1em;
+    }
+    
+    main h3 {
+        padding-bottom: 2em;;
+    }
+    
+    .magazine-title h4 {
+        font-size: 1.2em;
+    }
+    
+    .magazine-title {
+        padding: 0em 2em;
+    }
+    
+    .magazine-info button {
+        margin-top: 3.5em;
+        font-size: 0.5em;
+    }
+    
+    .blog-title h4 {
+        font-size: 1.2em;
+    }
+    
+    .blog-title {
+        padding: 2em 0 0.2em 3em;
+    }
+    
+    footer {
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+    
+    footer p {
+        padding-bottom: 0.3em;
+    }
+    
+    div.icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em
+    }
+}
