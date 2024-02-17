@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+
+/*
+ * Remove all whitespace from all elements
+ * - - - - - - - - - - - */
+ * {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+ * Reset box-sizing
+ * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ * - - - - - - - - - - - */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/*
+ * Fix images behaviour - block elements
+ * - - - - - - - - - - - */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 16px/1.5 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #eee;
+}
+
+.wrapper {
+    margin: 5em auto;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 2em;
+    padding: 3em;
+    justify-content: center
+}
+
+.plan {
+    background-color: #fff;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0em;
+}
+
+.middle {
+    flex: 0 0 34%;
+}
+
+article:not(.middle) {
+    margin: 1em 0em;
+}
+
+.plan .type {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.plan .price {
+    color: #808080;
+    padding: 1.3em 0em;
+}
+
+.plan .price span {
+    font-size: 3.5em;
+    color: #000;
+    font-weight: 700;
+}
+
+.billing {
+    color: #808080;
+    font-size: 0.75em;
+}
+
+.plan ul {
+    line-height: 2em;
+    padding: 1em 0em 2em;
+}
+
+.plan a {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 1.3em 2em;
+    border-radius: 0.5em;
+    width: 50%;
+}
