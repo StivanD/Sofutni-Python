@@ -3,3 +3,5 @@ function solve (num) {
 }
 
 solve(2);
+solve(5);
+solve(20);
