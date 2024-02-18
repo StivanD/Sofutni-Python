@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap);
+
+/*  Font-size – 18px
+    Font-size for big title – 90px
+    Font-size for other text – 16px 
+*/
+
+html {
+    font-size: 16px;
+}
+
+.header-navigation a,
+.content-description p,
+.customer-testimonial p,
+.support-message-wrapper p,
+.articles-content p,
+.articles-wrapper a,
+.local-guide p {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.big-title {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 90px;
+}
+
+.content-description {
+    color: #fff;
+    text-align: center;
+}
+
+.header-navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.customer-quote {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 66px;
+    font-style: italic;
+}
+
+.support {
+    color: #fff;
+}
+
+.support h2 {
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.articles-content h1,
+.local-guide h1 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 66px;
+    text-align: center;
+}
+
+.read-more-btn,
+.read-all-btn {
+    color: #000;
+    text-decoration: none;
+}
+
+.local-guide {
+    color: #fff;
+}
+
+.local-guide-wrapper a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.footer-content {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+p.copyright {
+    font-size: 14px;
+    color: #6E5E56;
+}

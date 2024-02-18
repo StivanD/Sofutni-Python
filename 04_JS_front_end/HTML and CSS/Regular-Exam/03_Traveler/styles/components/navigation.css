@@ -1,0 +1,15 @@
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    flex: 0 0 10%;
+}
+
+.header-navigation nav ul {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+}

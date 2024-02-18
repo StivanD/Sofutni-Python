@@ -1,0 +1,15 @@
+.site-footer {
+    padding: 3em 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    background-color: #352B2B;
+}
+
+.footer-logo-container {
+    width: 7%;
+}
+
+p.copyright {
+    padding-top: 2em;
+}
