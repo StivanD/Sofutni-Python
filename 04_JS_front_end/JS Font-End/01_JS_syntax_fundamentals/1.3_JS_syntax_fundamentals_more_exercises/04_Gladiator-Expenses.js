@@ -9,11 +9,11 @@ function solve(lostFights, helmetPrice, swordPrice, shieldPrice, armorPrice) {
             brokenShield++;
         }
         
-        if (i % 2 == 0) {
+        if (i % 2 === 0) {
             expenses += helmetPrice;
         }
         
-        if (i % 3 == 0) {
+        if (i % 3 === 0) {
             expenses += swordPrice;
         }
         
